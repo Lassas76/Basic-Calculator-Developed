@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(120deg, #7a1e1e, #f5deb3);
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.cal-shell {
+  background: #fffdf7;
+  border: 3px dashed maroon;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  width: 280px;
+}
+
+#calcscreen {
+  background: #fff8e1;
+  color: #4e342e;
+  padding: 1rem;
+  font-size: 1.8rem;
+  text-align: right;
+  border: 2px solid #c0a16b;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+  background: #fce4ec;
+  color: #6a1b9a;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #f8bbd0;
+  transform: scale(1.05);
+}
